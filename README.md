@@ -1,6 +1,6 @@
-# Cálculo do Índice de Massa Corporal (IMC).
+# Calculadora do Índice de Massa Corporal (IMC).
 
- Neste projeto, foi usado um formulário de contato, bem como comandos no   javascript para validar os campos.
+ Neste projeto, foi usado um formulário de contato, explorando as funções e o comando switch case no Javascript.
 
  [Você poderá ver o projeto aqui](https://calculadora-de-imc.now.sh/)
 

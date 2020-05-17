@@ -55,20 +55,7 @@ switch (true) {
 }
 
 
- //verify if has blank spaces
-/*  var regex = /^[0-9.,]$/;
-var weight_error = document.getElementById('weight-error');
- 
-    if (!regex.test(wght))
-    {
-        weight_error.innerHTML = "Campo inválido. Preencha corretamente" ;
-        return false;
-    }else{
-        weight_error.style.display = "none" ;
-        age_error.style.display = "none" ;
-    }
-    return true;
-     */
+
 
 }/**/
 
