@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcular IMC</title>
+</head>
+<body>
+<div class="container">
+        <div class="form">
+        <form action="#" name="form" id="form">
+            <h2>Calculadora de IMC</h2><hr>
+            
+            <input type="text" id="weight" name="weight" placeholder="Peso (kg)" autocomplete="off" required>
+            <span id="weight-error" class="weight-error"></span>
+
+            <input type="text" id="height" name="height" placeholder="Altura ex:(1.80)" autocomplete="off" pattern="\d{1,2}(,\d{3})*(\.\d+)?" + title= "e.g: 1.70" required> 
+            <span id="height-error" class="height-error"></span>
+
+           <input type="number" id="quantity" name="quantity" min="1" max="99" placeholder="Idade (opcional)" autocomplete="off">
+           <span id="age-error" class="age-error"></span>
+
+            <select name="sex" id="sexo">
+                <option value="Masculino" >Masculino</option>
+                <option value="Feminino" >Feminino</option>
+            </select>
+            <input type="submit" id="submit" name="submit" value="Calcular">
+            <span id="span"></span>
+        </form>
+    
+    </div><!-- form -->
+
+</div><!-- container -->
+    <script src="/script.js"></script>
+</body>
+</html>
