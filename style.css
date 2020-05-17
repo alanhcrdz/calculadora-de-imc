@@ -90,3 +90,37 @@ form h2{
     text-align: right;
 }
 
+@media screen and (max-width: 478px){
+    .container{
+
+        max-width: 375px;
+    }
+    
+    .form{
+        width: 100%;
+        max-width: 300px;
+        height: 100%;
+    }
+
+    .form input[type=text], [type=submit],[type=number], select{
+        width: 80%;
+        padding: 8px;
+        font-size: 13px;
+
+       
+    }
+    
+    [type=submit]{
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    span{
+        font-size: 13px;
+    }
+    form h2{
+        font-size: 18px;
+    }
+    
+}
+

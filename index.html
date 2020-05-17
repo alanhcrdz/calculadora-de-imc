@@ -12,7 +12,7 @@
         <form action="#" name="form" id="form">
             <h2>Calculadora de IMC</h2><hr>
             
-            <input type="text" id="weight" name="weight" placeholder="Peso (kg)" autocomplete="off" required>
+            <input type="text" id="weight" name="weight" placeholder="Peso (kg)" pattern="[0-9]+"  title= "Somente números de 0 a 9"autocomplete="off" required>
             <span id="weight-error" class="weight-error"></span>
 
             <input type="text" id="height" name="height" placeholder="Altura ex:(1.80)" autocomplete="off" pattern="\d{1,2}(,\d{3})*(\.\d+)?" + title= "e.g: 1.70" required> 
